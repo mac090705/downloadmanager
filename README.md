@@ -9,7 +9,7 @@
 ## 使用
 ###普通下载
 ```java
-DownloadManager.getInstance(context).start(URL_1, getExternalFilesDir("file") + File.separator + "xc.apk", new DownloadListenerAdapter() {
+DownloadManager.getInstance(context).start(url, path, new DownloadListenerAdapter() {
 
             @Override
             public void onProgress(int id, long currSize, long totalSize) {
