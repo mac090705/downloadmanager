@@ -2,9 +2,9 @@
 基于OkHttp实现的断点下载工具。使用SQLite来记录断点。
 
 ##截图
-![](https://github.com/mac090705/downloadmanager/blob/master/captures/device-2016-07-14-163020.png)
+![](https://github.com/mac090705/downloadmanager/blob/master/screenshots/device-2016-07-14-163020.png)
 
-![](https://github.com/mac090705/downloadmanager/blob/master/captures/device-2016-07-14-163048.png)
+![](https://github.com/mac090705/downloadmanager/blob/master/screenshots/device-2016-07-14-163048.png)
 
 ## 使用
 ###普通下载
