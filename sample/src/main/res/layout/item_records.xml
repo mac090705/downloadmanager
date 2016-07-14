@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:padding="8dp">
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URL："/>
+        <TextView android:id="@+id/url_text" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIR："/>
+
+        <TextView android:id="@+id/dir_text" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME："/>
+        <TextView android:id="@+id/name_text" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIZE："/>
+        <TextView android:id="@+id/size_text" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STATUS："/>
+        <TextView android:id="@+id/status_text" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START："/>
+        <TextView android:id="@+id/start_text" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MIME："/>
+        <TextView android:id="@+id/mime_type" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+    </TableRow>
+</TableLayout>
